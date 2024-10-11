@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo 10</title>
+    <link rel="stylesheet" href="ejemplo10.css">
+</head>
+
+<body>
+    <!-- html incorrecto -->
+    <h1>Problema 10: Mal uso de selectores CSS</h1>
+    <br>
+    <nav>
+        <ul>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#about">Acerca de</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <br>
+    <!-- solución -->
+    <h1>Solución 10:</h1>
+    <br>
+    <nav>
+        <nav>
+            <ul>
+              <li><a href="#home" class="nav-link">Inicio</a></li>
+              <li><a href="#about" class="nav-link">Acerca de</a></li>
+              <li><a href="#contact" class="nav-link">Contacto</a></li>
+            </ul>
+          </nav>
+    </nav>
+    <hr>
+    <br>
+    <h1></h1>
+    <p>Explicación:El selector CSS incorrecto es demasiado específico y difícil de sobrescribir. El enfoque correcto
+        usa una clase, lo que hace que el código sea más mantenible y eficiente. También se añade un efecto hover para
+        mejorar la experiencia del usuario.</p>
+</body>
+<script src="ejemplo10.js"></script>
+
+</html>

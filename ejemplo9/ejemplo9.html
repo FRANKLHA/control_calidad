@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo 9</title>
+    <link rel="stylesheet" href="ejemplo9.css">
+</head>
+
+<body>
+    <!-- encuentra el error -->
+    <h1>Problema 9: Uso incorrecto de atributos ARIA</h1>
+    <br>
+    <div role="button" aria-label="Cerrar">X</div>
+    <hr>
+    <br>
+    <!-- solución -->
+    <h1>Solución 9:</h1>
+    <br>
+    <button aria-label="Cerrar" class="close-btn">X</button>
+    <hr>
+    <br>
+    <h1>Explicación:</h1>
+    <p>En lugar de usar un &lt;div&gt; con role="button", es mejor usar un elemento &lt;button&gt; real. Esto
+        proporciona funcionalidad de botón nativa y mejora la accesibilidad sin necesidad de JavaScript adicional. Los
+        elementos &lt;button&gt; ofrecen ventajas inherentes como el enfoque del teclado, la activación con la tecla
+        Enter, y una semántica clara para tecnologías de asistencia, lo que hace que tu sitio web sea más inclusivo y
+        fácil de usar para todos los usuarios.</p>
+</body>
+<script src="ejemplo9.js"></script>
+
+</html>

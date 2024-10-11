@@ -1,0 +1,29 @@
+/* css error */
+.container {
+  width: 800px;
+}
+.box {
+  width: 400px;
+  float: left;
+}
+
+/* css corregido */
+
+.prueba {
+  max-width: 100%;
+  padding: 0 15px;
+}
+.caja {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+  .prueba {
+    display: flex;
+    justify-content: space-between;
+  }
+  .caja {
+    width: 48%;
+  }
+} 

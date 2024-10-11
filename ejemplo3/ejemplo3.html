@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo 3</title>
+    <link rel="stylesheet" href="ejemplo1.css">
+</head>
+
+<body>
+    <!-- encuentra el error -->
+    <h1>Problema 3: Uso incorrecto de IDs duplicados</h1>
+    <div id="container">
+        <p id="texto">Párrafo 1</p>
+        <p id="texto">Párrafo 2</p>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <!-- solución -->
+    <h1>Solución 3:</h1>
+    <div class="recipiente">
+        <p class="text">Párrafo 1</p>
+        <p class="text">Párrafo 2</p>
+    </div>
+    <script src="ejemplo3.js"></script>
+    <br>
+    <hr>
+    <br>
+    <h1>Explicación:</h1>
+
+    <p> Los IDs deben ser únicos en un documento HTML. Usar IDs duplicados puede causar problemas con JavaScript y CSS.
+        En su lugar, use clases para aplicar estilos o seleccionar múltiples elementos.</p>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+CSS incorrecto
+
+  nav ul li a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+/* css correcto
+  .nav-link {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-link:hover {
+    background-color: #e6f2ff;
+  } */

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo 4</title>
+    <link rel="stylesheet" href="ejemplo4.css">
+</head>
+<body>
+    <!-- encuentra el error -->
+    <h1>Problema 4: Mal uso de elementos semánticos</h1>
+    <br>
+    <div>Encabezado principal</div>
+    <div>
+      <div>Sección 1</div>
+      <div>Contenido...</div>
+    </div>
+    <hr>
+    <br>
+    <!-- solución -->
+    <h1>Solución 4:</h1>
+    <br>
+    <header>
+        <h1>Encabezado principal</h1>
+      </header>
+      <main>
+        <section>
+          <h2>Sección 1</h2>
+          <p>Contenido...</p>
+        </section>
+      </main>
+    <hr>
+    <br>
+    <h1>Explicación:</h1>
+    <p>Usar elementos semánticos apropiados (como &lt;header&gt;, &lt;main&gt;, &lt;section&gt;, &lt;h1&gt;, &lt;h2&gt;) mejora la accesibilidad y el SEO. También hace que el código sea más fácil de entender y mantener.</p>
+</body>
+<script src="ejemplo4.js"></script>
+</html>
